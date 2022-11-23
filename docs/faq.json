@@ -1,17 +1,162 @@
 {
   "headline": "FAQs",
-  "faqs": [
+  "sections": [
     {
-      "q": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labo?",
-      "a": "Et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "title": "General questions about the Project",
+      "faq": [
+        {
+          "q": "What is the Home Data Inspector project?",
+          "a": "<p>Many people use smart-home devices in their daily lives.From smart bulbs and plugs to TVs and kitchen appliances, we’re living in the age of the Internet-of-Things (IoT). While these devices can enrich our lives, they may also have negative impacts on our data security, or put our privacy at risk.</p><p>Many IoT devices are designed with poor security practices, such as using hard-coded passwords, lack of strong authentication, or not running updates. Devices could also be hacked, and an attacker could potentially control the devices or steal sensitive information.</p><p>Further, having many IoT devices in the home can mean competition for limited bandwidth, which may degrade the overall performance of the home network.</p><p>The Home Data Inspector measures and visualizes these risks, both for you in your own home life, and for researchers to better understand the risks of IoT devices.  It is an open-source software that you can download to inspect your home network and identify any privacy, security, and performance problems associated with your IoT devices. </p>"
+        },
+        {
+          "q": "What is the Home Data Inspector tool?",
+          "a": "xx"
+        },
+        {
+          "q": "Why does Home Data Inspector want to collect my data?",
+          "a": "xx"
+        },
+        {
+          "q": "Do I have to share data back with Consumer Reports and NYU researchers to be able to use Home Data Inspector? ",
+          "a": "No.  But we hope you will! "
+        },
+        {
+          "q": "What type of analysis will be done with the information I submitted?",
+          "a": "xx"
+        }
+      ]
     },
     {
-      "q": "Sed ut perspiciatis unde omnis iste natus error sit ?",
-      "a": "Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur"
+      "title": "Data Privacy and Security",
+      "faq": [
+        {
+          "q": "What information does the Home Data Inspector collect?",
+          "a": "xx"
+        },
+        {
+          "q": "What information does the Home Data Inspector not collect? ",
+          "a": "xx"
+        },
+        {
+          "q": "What can the Home Data Inspector teach you? ",
+          "a": "xx"
+        },
+        {
+          "q": "How do you make sure that all data collected is confidential? ",
+          "a": "xx"
+        },
+        {
+          "q": "What are some risks of running IoT Inspector on my computer?",
+          "a": "xx"
+        },
+        {
+          "q": "Despite all the effort above, can a user still accidentally send sensitive information to the researchers?",
+          "a": "xx"
+        },
+        {
+          "q": "What if IoT Inspector’s server is hacked?",
+          "a": "xx"
+        },
+        {
+          "q": "How long will you keep the data? What’s your data retention policy?",
+          "a": "xx"
+        },
+        {
+          "q": "Will you share data with third-party researchers?",
+          "a": "xx"
+        },
+        {
+          "q": "Would you ever sell the data for commercial purposes?",
+          "a": "No."
+        },
+        {
+          "q": "Can my housemate use IoT Inspector to spy on me?",
+          "a": "xx"
+        },
+        {
+          "q": "Why do some anti-virus products flag IoT Inspector as malware?",
+          "a": "xx"
+        },
+        {
+          "q": "How can I share IoT Inspector’s logs with the researchers (e.g., for troubleshooting)?",
+          "a": "xx"
+        }
+      ]
     },
     {
-      "q": "At vero eos et accusamus et iusto odio?",
-      "a": "<p>dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore,</p><p>Sum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>"
+      "title": "Troubleshooting within Home Data Inspector",
+      "faq": [
+        {
+          "q": "How do I delete my data?",
+          "a": "xx"
+        },
+        {
+          "q": "Users can delete any collected data — either per device or per account.",
+          "a": "xx"
+        },
+        {
+          "q": "How do I get a copy of the collected data?",
+          "a": "xx"
+        },
+        {
+          "q": "Why do I see a question mark next to a domain name?",
+          "a": "xx"
+        },
+        {
+          "q": "Why can’t I see my IoT device in the device list on the home screen?",
+          "a": "xx"
+        },
+        {
+          "q": "Why am I seeing an empty chart/table?",
+          "a": "xx"
+        },
+        {
+          "q": "I’ve monitored a number of devices. All of them have “No Data”. What’s going on?",
+          "a": "xx"
+        },
+        {
+          "q": "How do I stop IoT Inspector from collecting traffic?",
+          "a": "xx"
+        },
+        {
+          "q": "How do I delete IoT Inspector from my computer?",
+          "a": "xx"
+        },
+        {
+          "q": "Is there a way to inspect the unencrypted traffic being sent?",
+          "a": "xx"
+        },
+        {
+          "q": "IoT Inspector shows me that my devices are really unsafe. What should I do?",
+          "a": "xx"
+        }
+      ]
+    },
+    {
+      "title": "For academic researchers",
+      "faq": [
+        {
+          "q": "tbd",
+          "a": "tbd"
+        }
+      ]
+    },
+    {
+      "title": "Other Questions",
+      "faq": [
+        {
+          "q": "qq",
+          "a": "xx"
+        },
+        {
+          "q": "qq",
+          "a": "xx"
+        },
+        {
+          "q": "qq",
+          "a": "xx"
+        }
+      ]
     }
   ]
 }
