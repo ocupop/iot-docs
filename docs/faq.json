@@ -31,39 +31,39 @@
       "faq": [
         {
           "q": "What information does the Home Data Inspector collect?",
-          "a": "xx"
+          "a": "<p>It collects and shows you the following information:</p> <ul> <li aria-level=\"1\"> <p role=\"presentation\">who the IoT device contacts on the Internet, and whether the contacted party is malicious or is known to track users</p> </li> <li aria-level=\"1\"> <p role=\"presentation\">how much data is exchanged (in terms of bytes per second) between the device and the contacted parties</p> </li> <li aria-level=\"1\"> <p role=\"presentation\">how often the data is exchanged</p> </li> </ul> <p> IoT Inspector collects and sends the information above to the researchers only when it is running — until the user terminates or uninstalls IoT Inspector. &nbsp; For a more detailed rundown of the ways we collect data, click here.&nbsp;&nbsp;</p> <p>Separately, when you first sign up, we collect data such as first name, last name and email address which is used in accordance with our <a href=\"https://www.consumerreports.org/cro/customerservice/privacy-policy/highlights/index.htm\">Privacy Policy</a>.&nbsp; We do this only so that we can continue to communicate with you about the project and what we discover from our collective research.&nbsp; There is no way to connect this information with the data collected by the Home Data Inspector.&nbsp;</p> <p>Finally, ConsumerReports.org uses cookies and other technologies to understand how people use the site, for marketing purposes, and for other reasons as described in our <a href=\"https://www.consumerreports.org/cro/customerservice/privacy-policy/cookies/index.htm\">cookie policy</a>.</p> <p><a href=\"#\">&lt;&lt;&lt;Link to learn more specifics&gt;&gt;&gt;</a></p>"
         },
         {
           "q": "What information does the Home Data Inspector not collect? ",
-          "a": "xx"
+          "a": "<ul> <li> <p >network activities of phones, computers, or tablets</p> </li> <li> <p >actual contents of communication</p> </li> <li> <p >any personally identifiable information, such as your home network&rsquo;s IP address, the MAC addresses of your devices, your location, or your name and email</p> </li> </ul> <p>Because the tool does not collect any personally identifiable information, we are unable to infer what IoT devices a specific person owns. We will keep the data confidential within the limits of the law.</p> <p>Also note that IoT Inspector is not intended to replace existing security software packages on your system, such as Avast, McAfee, or Windows Defender. You are still strongly recommended to engage in secure computing practices, e.g., running regular system updates, not reusing passwords, enabling firewalls, and running well-known security software.</p> <p><a href=\"#\">&lt;&lt;&lt;Link to learn more specifics&gt;&gt;&gt;</a></p> <p><b>More details on what HDI collects/does not collect</b></p> <p>For each IoT device on your network, HDI will collect the following information and sends it to our secure server at NYU:&nbsp;</p> <ul> <li> <p >Device manufacturers, based on the first 6 characters of the MAC address of each device on your network</p> </li> <li> <p >DNS requests and responses.</p> </li> <li> <p >Destination IP addresses and ports contacted — but not your public-facing IP address (i.e., one that your ISP assigns to you).</p> </li> <li> <p >Scrambled MAC addresses (i.e., with a salted hash).</p> </li> <li> <p >Aggregate traffic statistics — i.e., number of bytes sent and received over a period of time.</p> </li> </ul> <p>Names of devices on your network. We collect this information from the following sources:</p> <ul> <li> <p >Your manual input — i.e., you can tell us what devices you have.</p> </li> <li> <p >User Agent string — i.e., a short text (typically fewer than 100 characters) that your IoT device sends to the Internet that announces what type of device it is. This text does not typically include any personally identifiable information. For example, if you have a Samsung Smart TV, the User Agent string might look like &ldquo;Mozilla/5.0 (Linux; Tizen 2.3) AppleWebKit/538.1 (KHTML, like Gecko)Version/2.3 TV Safari/538.1&rdquo;.</p> </li> <li> <p >SSDP messages — i.e., a short message (typically fewer than 100 characters) that your IoT device announces to the entire home network which includes its name. Again, this text does not typically include any personally identifiable information. For instance, if you have a Google Chromecast, it typically announces itself as &ldquo;google_cast&rdquo; or &ldquo;Chromecast&rdquo; via SSDP.</p> </li> <li> <p >DHCP hostnames — i.e., a short text (typically fewer than 100 characters) that your IoT device announces to the entire home network which includes its name. Similarly, this text does not typically include any personally identifiable information. For example, a Wemo smart plug typically announces itself as &ldquo;wemo&rdquo; via DHCP. </p> </li> </ul> <p>(We collect from the sources above because some IoT devices may use none or some of the sources above for self-identification.)</p> <ul> <li> <p >TLS handshake — i.e., a short piece of data (typically fewer than 3,000 characters) that your IoT device sends to the Internet in order to establish a secure connection.</p> </li> <ul> <li > <p >This text does not typically include any personally identifiable information.</p> </li> <li > <p >We use this data to identify potentially vulnerable IoT devices — for instance, because they are using an outdated or insecure encryption function, in which case we notify the user of the risks of using the device.</p> </li> </ul> </ul> <p>For exact details of how we collect these data, see the source code: https://github.com/noise-lab/iot-inspector-client/blob/master/src/data_upload.py. You can also download the data yourself; see this question in the FAQ.</p> <p>If you do not want IoT Inspector to collect data from a particular IoT device (e.g., because it collects sensitive medical information), please do not select those devices for analysis once you start running the program.</p>"
         },
         {
           "q": "What can the Home Data Inspector teach you? ",
-          "a": "xx"
+          "a": "<p>Home Data Inspector aims to provide you with transparency into your IoT devices, including: </p><ul><li>whether your IoT device is sharing your information with third parties;</li><li>whether your IoT device is hacked (for instance, engaged in DDoS attacks);</li><li>whether your IoT device is slowing down your home network.</li>"
         },
         {
           "q": "How do you make sure that all data collected is confidential? ",
-          "a": "xx"
+          "a": "<p>Both Consumer Reports and NYU take privacy very seriously, and we actively work to secure your personal information. All data collected from your IoT devices is stored on a secure server at NYU. Home Data Inspector transmits data to our server over a secure channel, i.e., HTTPS.</p><p>As a result of our privacy and security practices, no one has access to the collected data except researchers at Consumer Reports and at NYU. Based on the data we do collect, researchers are unable to infer what IoT devices you specifically own, and what you do with your devices.</p><p>We do this by assigning each user a unique ID, generated at random when the user first runs Home Data . That’s how we distinguish between individual users.)"
         },
         {
           "q": "What are some risks of running IoT Inspector on my computer?",
-          "a": "xx"
+          "a": "<p>Performance degradation: Running IoT Inspector may reduce your network performance. If you are doing latency-sensitive activities, such as playing video games or holding video chats, we recommend that you turn off IoT Inspector. In fact, some of our users complained that IoT Inspector brought down their entire network; if this happens, stop IoT Inspector and reboot your router. Furthermore, IoT Inspector is experimental software is provided “as is;” we have not comprehensively tested IoT Inspector on all IoT devices or with all possible configurations. As a result, it may fail to work and disconnect your home devices. In this case, simply turning off IoT Inspector and rebooting your home router would likely solve the issues. If you have any critical medical devices, for instance, we suggest you exclude such devices from IoT Inspector or withdrawl from the study.</p><p><b>Data breach:</b> In the unlikely event that our secure server is compromised, an attacker will have access to this form and the collected data. However, the attacker will be unable to infer what IoT devices you own (because the attacker would not know the real-world identities behind each device), and what you do with your devices.</p><p><b>Best-effort support:</b> We will regularly maintain and update the software (e.g., fixing bugs) whenever necessary. In case of questions, we try our best to respond to email inquiries within 24 hours during weekdays. However, we do not guarantee long-terms support of the software. Also, we do not guarantee we will answer everyone’s questions if our capacity reaches a certain limit. In the event that IoT Inspector disrupts the normal functionality of your network, simply turn off IoT Inspector.</p>"
         },
         {
           "q": "Despite all the effort above, can a user still accidentally send sensitive information to the researchers?",
-          "a": "xx"
+          "a": "<p>We could potentially gather three sources of sensitive information:</p><p>A user could enter their name as a part of the device’s name (e.g., “Danny’s Chromecast”). Please don’t enter your name as a part of any labeling you do on Home Data Inspector! </p><p>IoT Inspector automatically scans the network to guess likely identities of devices on the network. A part of this scan uses SSDP/mDNS, which is a way for devices to announce their identities to their network. Sometimes, a device’s own announcement may contain private information. For instance, a Chromecast may announce its name along with the video you’re streaming on YouTube.</p><p>IoT Inspector also parses DHCP Request packets that devices broadcast to the entire network — a part of the effort to identify devices. These packets may contain sensitive information, as well. For instance, an iPhone’s DHCP Request packets may say “Danny’s iPhone”.</p><p><i><b>Do we need new screenshots here?  Or links to the right page?</b></i></p><p>Users can remove data gathered in 2 and 3 by clicking the “Remove” link, as shown below. </p><p>For example, my Macbook may be discovered, and my name was transmitted to Princeton:Screenshot of renaming devices</p><p>After clicking the “Remove link”, my name dispappeared:Screenshot of renaming devices</p>"
         },
         {
           "q": "What if IoT Inspector’s server is hacked?",
-          "a": "xx"
+          "a": "<p>In the rare case where our server is hacked, an attacker could obtain a copy of the dataset and our system logs. It is true that the attacker would be able to see what device contacted what domains at what time, but beyond this information, it is unlikely that the attacker would be able to infer the real-world identities behind individual devices. This is because we do not collect any personally identifiable information such as your Internet-facing IP address (see this question); for instance, we have disabled IP logging on our webserver (https://dashboard.iotinspector.org), so we don’t really know which IP address is running IoT Inspector.</p><p>Furthermore, even if IoT Inspector accidentally collects sensitive information, you can remove it from the user interface (see this question).</p>"
         },
         {
           "q": "How long will you keep the data? What’s your data retention policy?",
-          "a": "xx"
+          "a": "<p>Our goal is to balance reproducibility and privacy. In particular, we should retain the data long enough for any external researchers to challenge our findings, but not too long such that the data is forgotten or breached.</p><p>As such, we have decided to retain the data on our server (at NYU) for at most a year after we publish a paper on our findings in an academic journal/conference. During this one-year post-publication period, any researchers, with the approval of their respective institutional review boards, would have the opportunity to request our dataset, reproduce our results, and verify our findings.</p>"
         },
         {
           "q": "Will you share data with third-party researchers?",
-          "a": "xx"
+          "a": "<p>Yes, provided that the NYU researchers can obtain the approval from NYU’s Institutional Review Board (IRB) and add the non-NYU entities as external researchers/collaborators. With NYU IRB’s approval, the NYU researchers will grant full data access to the non-NYU entities. Even if these non-NYU entities were to turn rogue, it is unlikely that they’d be able to infer individual user’s real-world identities, because IoT Inspector does not intentionally collect personally identifiable information in the first place.</p>"
         },
         {
           "q": "Would you ever sell the data for commercial purposes?",
@@ -71,15 +71,15 @@
         },
         {
           "q": "Can my housemate use IoT Inspector to spy on me?",
-          "a": "xx"
+          "a": "<p>They could. This action is against our policies as stated in the consent form, but someone could still use IoT Inspector to monitor the network without the consent of everyone on the same network.</p><p>We attempt to make it very difficult to a malicious user to monitor the network traffic of non-IoT devices. Here’s how:</p><p>We have a set of best-effort heuristics to determine if a device is non-IoT. For instance, we use Fingerbank to guess the identity of each device, based on the OUI of the MAC address as well as the destination hosts contacted. Also, we look at the DHCP Request packets and the SSDP messages to determine if a device is non-IoT.</p><p>Note: These heuristics may introduce false positives and false negatives (i.e., a non-IoT device not being marked as non-IoT, and an IoT device being marked as non-IoT).</p><p>Screenshot of device being marked as non-IoT</p><p>For each non-IoT device, if a user attempts to view what communication endpoints the device has contacted (e.g., to spy on a roommate’s browsing history), the user will see the following lock screen.</p><p>Screenshot of device being locked</p><p>The user would have to enter the first 6 characters of the MAC address to unlock the screen. This screen serves as a deterrence to users who don’t have physical access to devices to which they wish to monitor.</p><p>The effort above, again, serves as a mitigation, rather than a solution. A malicious user can, for instance, scan the network to obtain MAC address of the device they wish to spy on, thereby circumventing the checks in Step 2. Our mitigation here aims to deter non-technical users from abusing our tool, rather than highly technical users (who probably do not need IoT Inspector to spy on their housemates anyways).</p>"
         },
         {
           "q": "Why do some anti-virus products flag IoT Inspector as malware?",
-          "a": "xx"
+          "a": "<p>In order to collect network traffic without significant user intervention, IoT Inspector uses a technique known as “ARP spoofing”, which could appear as malicious to some anti-virus products. Additionally, certain behaviors of IoT Inspector, such as updating itself through a Windows batch file, could also appear as malicious to some anti-virus products.</p><p>We have no intention of causing harm to users, and we do our best to protect their security and privacy. We are a group of academic researchers interested in building a consumer-facing tool to help everyone understand IoT security and privacy, as well as producing academic research papers without any commercial interest.</p><p>You are welcome to inspect our source code and compile it on your own; after all, IoT Inspector is written in pure Python 3. Feel free to reach out to us if you ever have any questions.</p>"
         },
         {
           "q": "How can I share IoT Inspector’s logs with the researchers (e.g., for troubleshooting)?",
-          "a": "xx"
+          "a": "<p>IoT Inspector logs all its activities to a file iot_inspector_logs.txt in the princeton-iot-inspector folder under your home directory. IoT Inspector, by default, does not upload this log file to the researchers (see source code).</p><p>If you run into errors and would like our help to troubleshoot, you have the option of emailing the log file to us. Before you do so, however, you run the risk of identifying who you are to us, because your email address (e.g., firstname.lastname@gmail.com) could potentially reveal your identity. To mitigate this privacy risk, we suggest that you create a new email address (e.g., with a randomly generated name) and email us the logs using this new email address.</p>"
         }
       ]
     },
@@ -88,73 +88,64 @@
       "faq": [
         {
           "q": "How do I delete my data?",
-          "a": "xx"
-        },
-        {
-          "q": "Users can delete any collected data — either per device or per account.",
-          "a": "xx"
+          "a": "<p>You can delete your data within the Home Data Inspector tool.</p>            <p><b>Users can delete any collected data — either per device or per account.</b><br/>Delete data per device:<br/>Delete device data - linked within tool <br/>Delete data per account:<br/>Delete account data - linked within tool </p>"
         },
         {
           "q": "How do I get a copy of the collected data?",
-          "a": "xx"
+          "a": "Go to the “Settings” page:<br/><br/>Settings screenshot - linked within tool"
         },
         {
           "q": "Why do I see a question mark next to a domain name?",
-          "a": "xx"
+          "a": "<p>A domain name that ends with question mark “?” means that we are not confident in the result. One reason is that IoT Inspector has failed to observe any DNS traffic on the monitored device; this DNS traffic would otherwise help IoT Inspector identify exactly what domain name the device contacts.</p><p>As such, if your device appears to be communicating with a strange domain marked with “?”, do not panic. After all, IoT Inspector could have made a mistake here!</p><p>If you’re still not sure, talk to us and we can help you.</p>"
         },
         {
           "q": "Why can’t I see my IoT device in the device list on the home screen?",
-          "a": "xx"
+          "a": "<p>Possible reasons (starting from the most likely reasons):</p><ul><li>It takes some time for IoT Inspector to discover your devices. Just wait for the list to refresh itself.</li><li>Maybe your device is offline or in a sleep mode. Try to interact with your device, e.g.,turning it off and then on interacting with the associated smart phone app (if the device comes with a control app)</li><li>Your device is in the list; you just don’t recognize it. You can check if the IP and MAC addresses in the list corresponds to those of your device.</li><li>You have too many devices on your network. By default, IoT Inspector allows you to inspect up to 50 devices. If you want to inspect more devices, contact us and we can increase your limit on a case-by-case basis.</li></ul>"
         },
         {
           "q": "Why am I seeing an empty chart/table?",
-          "a": "xx"
+          "a": "<p>It takes about ten seconds for the chart/table to refresh. Be a little patient.</p><p>Your device is not sending/receiving any traffic. Try to interact with the device, e.g., turning it off and on interacting with the associated smart phone app (if the device comes with a control app) There’s a bug with IoT Inspector. Click the “Stop Inspection and Logout” button at the top of the screen, wait 30 seconds, and restart IoT Inspector.<p>"
         },
         {
           "q": "I’ve monitored a number of devices. All of them have “No Data”. What’s going on?",
-          "a": "xx"
+          "a": "<p>Possible reasons:</p><ul><li>Wait for a minute as IoT Inspector attempts to intercept traffic via ARP spoofing.</li><li>If the devices still have “No Data” after a minute, it is likely that your router blocks our ARP spoofing attempts, thus preventing IoT Inspector to intercept any network traffic. In this case, IoT Inspector will not work on your network.</li></ul>"
         },
         {
           "q": "How do I stop IoT Inspector from collecting traffic?",
-          "a": "xx"
+          "a": "<p>You can pause the collection by clicking the “Start/Pause Inspection” button at the top of the dashboard. </p><p>To stop the collection, you can either (i) close all browser windows running IoT Inspector (in which case IoT Inspector will automatically stop collecting data within 15 seconds); or (ii) click the “Stop Inspection and Logout” button at the top of the screen. </p>"
         },
         {
           "q": "How do I delete IoT Inspector from my computer?",
-          "a": "xx"
+          "a": "TBD within Tool "
         },
         {
           "q": "Is there a way to inspect the unencrypted traffic being sent?",
-          "a": "xx"
+          "a": "<p>You cannot inspect the unencrypted traffic using IoT Inspector, because IoT Inspector does not collect packet payload (with the exception of DNS, DHCP Request, and TLS Client Hello).</p><p>Still, if you really want to see what’s being sent by your devices, feel free to run tcpdump or wireshark on the same computer to collect more additional details.</p>"
         },
         {
           "q": "IoT Inspector shows me that my devices are really unsafe. What should I do?",
-          "a": "xx"
+          "a": "<p>For the current implementation, IoT Inspector can only help you identify potentially unsafe devices; it doesn’t tell you what to do. Here are a few ways to mitigate the problem:</p><p>Unplug the problematic device. Don’t use it. And tell us about it.<br/>If you still want to use it, put it in separate network.<br/>You can buy another wireless router dedicated for problematic IoT devices.<br/>You can put problematic IoT devices in a separate VLAN. A user of ours suggested following these instructions.</p>"
         }
       ]
     },
     {
       "title": "For academic researchers",
-      "faq": [
-        {
-          "q": "tbd",
-          "a": "tbd"
-        }
-      ]
+      "faq": []
     },
     {
       "title": "Other Questions",
       "faq": [
         {
           "q": "I completed the study. How do I access my CR member benefits?",
-          "a": "xx"
+          "a": "<p>As a part of creating the most secure process possible for collecting your bills, you&rsquo;ve been signed up for a &ldquo;Basic&rdquo; membership of CR. This is a free membership, and makes you eligible for CR tools and services like: My Products, which allows you to save your car and CR-tested product info to receive recall and maintenance alerts, Car Recall Tracker, which allows you to find out if your car has a recall and what to do next, TV Screen Optimizer, which allows you to get the perfect picture on your TV, and the You Test and Share your story tools.</p><br />You can review and access your CR member benefits here: <a href=\"https://www.consumerreports.org/membership\">https://www.consumerreports.org/membership</a>"
         },
         {
           "q": "Will I receive emails?",
-          "a": "xx"
+          "a": "<p>When you sign up to participate in Broadband Together, you will receive welcome email communications with instructions on how to set an account password. You will also receive periodic emails about the Broadband Together coalition and opportunities to contribute to broadband research and advocacy.</p>After the study ends, you may receive information, offers, and other periodic email communications for Consumer Reports members. If you do not wish to receive emails for members, you can <a href=\"https://secure.consumerreports.org/ec/account/email-pref\">manage your email communications preferences here</a>. If you do not wish to receive emails about consumer advocacy, <a href=\"https://action.consumerreports.org/unsubscribe\">you can opt-out here</a>.<p>When you sign up to participate in Broadband Together, you will receive welcome email communications with instructions on how to set an account password. You will also receive periodic emails about the Broadband Together coalition and opportunities to contribute to broadband research and advocacy.</p>After the study ends, you may receive information, offers, and other periodic email communications for Consumer Reports members. If you do not wish to receive emails for members, you can <a href=\"https://secure.consumerreports.org/ec/account/email-pref\">manage your email communications preferences here</a>. If you do not wish to receive emails about consumer advocacy, <a href=\"https://action.consumerreports.org/unsubscribe\">you can opt-out here</a>."
         },
         {
           "q": "Why does the site use cookies?",
-          "a": "xx"
+          "a": "<p>When you use our websites or other digital services or open our emails, CR and other service providers may collect information through cookies, web beacons and other technologies. This <a href=\"https://www.consumerreports.org/cro/customerservice/privacy-policy/cookies/index.htm\">Cookie Policy</a> explains these technologies and how you can control their use. This policy applies to all Consumer Reports websites and other digital services that link to this policy.</p><p>These cookies and other technologies help make our digital services better and enhance the user experience by offering you a more relevant and customized experience. We also use cookies to monitor and stabilize our websites, measure the use and effectiveness of our content, remember you when you log in, and promote Consumer Reports products and services that are relevant to your interests. <a href=\"https://www.consumerreports.org/cro/customerservice/privacy-policy/cookies/index.htm\">Read more in more in our cookie policy</a>.</p><p>For more information about CR&rsquo;s privacy practices, please visit our <a href=\"https://www.consumerreports.org/cro/customerservice/privacy-policy/highlights/index.htm\">Privacy Policy</a>.</p><p>When you use our websites or other digital services or open our emails, CR and other service providers may collect information through cookies, web beacons and other technologies. This <a href=\"https://www.consumerreports.org/cro/customerservice/privacy-policy/cookies/index.htm\">Cookie Policy</a> explains these technologies and how you can control their use. This policy applies to all Consumer Reports websites and other digital services that link to this policy.</p><p>These cookies and other technologies help make our digital services better and enhance the user experience by offering you a more relevant and customized experience. We also use cookies to monitor and stabilize our websites, measure the use and effectiveness of our content, remember you when you log in, and promote Consumer Reports products and services that are relevant to your interests. <a href=\"https://www.consumerreports.org/cro/customerservice/privacy-policy/cookies/index.htm\">Read more in more in our cookie policy</a>.&nbsp;&nbsp;</p><p>For more information about CR&rsquo;s privacy practices, please visit our <a href=\"https://www.consumerreports.org/cro/customerservice/privacy-policy/highlights/index.htm\">Privacy Policy</a>.</p>"
         }
       ]
     }
