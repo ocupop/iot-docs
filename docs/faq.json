@@ -10,11 +10,11 @@
         },
         {
           "q": "What is the Home Data Inspector tool?",
-          "a": "xx"
+          "a": "<p>Home Data Inspector is a Windows/Linux/Mac application that you can run on laptops or desktops (It does not work on tablets or smartphones). By using a technique known as “ARP spoofing,” this software monitors the network activities of all IoT devices connected to the home network (e.g., your “smart” appliances).  For the more technically minded folks who would like to see the open source software, click here. </p><p>Home Data Inspector is also a research tool - it can collect anonymized data that helps us better understand the universe of IoT devices — specifically, measuring and mitigating their security, privacy, and performance problems.  As an individual user, you do not need to share data with our researchers to use Home Data Inspector - you can choose to toggle on or off data sharing as you see fit.</p> <p>or more information about our research, visit <a href=\"https://iotinspector.org/\">https://iotinspector.org/</a>.</p>"
         },
         {
           "q": "Why does Home Data Inspector want to collect my data?",
-          "a": "xx"
+          "a": "<p>We’re building a unique dataset of how real IoT devices interact in the wild (as opposed to in a lab setting). This dataset would allow us, as well as other academic researchers, to understand the security and privacy issues today and fix these problems in the near future.  We know your data is valuable, and we deeply appreciate your willingness to contribute to this effort for greater understanding.</p><p>For more information about our research, visit <a href=\"https://iotinspector.org/\">https://iotinspector.org/</a>.</p>"
         },
         {
           "q": "Do I have to share data back with Consumer Reports and NYU researchers to be able to use Home Data Inspector? ",
@@ -22,7 +22,7 @@
         },
         {
           "q": "What type of analysis will be done with the information I submitted?",
-          "a": "xx"
+          "a": "<ul><li>It is difficult to produce generalizable results in the study of IoT security and privacy. Although a researcher can purchase a few devices and conduct penetration tests on them in lab settings, the conclusion may not apply to diverse devices that are actually being used in consumer homes or enterprise networks.  One way to mitigate this problem is to look at network traffic from network service providers or from antivirus companies. Unfortunately, such datasets are likely to be proprietary and access may be limited to select researchers. Furthermore, the identities of IoT devices are unlikely to be labelled in such datasets; without this ground truth, it could be difficult to analyze IoT-specific traffic or make conclusions on individual types of IoT devices.</li><li>With IoT Inspector, we are the first in the research community to produce an open-source, anonymized dataset of actual IoT network traffic, where the identity of each device is labelled. We hope to invite any academic researchers to collaborate with us — e.g., to analyze the data or to improve the data collection — and advance our knowledge on IoT security, privacy, and other related fields (e.g., network performance).</li><li><b>Access & Choice</b> By comparing your bill with thousands of others, we will be able to see where prices are higher or lower for the same service. Over time, we hope to determine the factors that explain other factors that account for price differences. For our initial study, we will only use zip code data, and NOT street addresses, to detect these geographical differences. </li><li><b>Confusing Pricing</b> Internet service can be bundled with phone or cable TV service, so the cost of internet may not even be listed on the monthly bill. Other bills may not disclose the promised speed being paid for, and the price can vary significantly depending on if a promotional rate is applied or expired.</li><li><b>Hidden Fees</b>  Bills can be padded with hidden fees made up by the internet service provider that you might not have even known were there. For example, some providers impose a non-optional “network access and maintenance fee” that is not a government fee, but a fee entirely made up by the ISP.</li></ul><p>We will release our findings in a journal/conference publication, and in Consumer Reports articles and content.  We hope to provide consumers who are unsure whether to buy a new IoT device with guidance on that device’s comparable privacy and security.  Furthermore, the Digital Lab at Consumer Reports will publish the results of our study in a more publicly accessible form. </p><p>Further, our study will provide more transparency about privacy, security and performance issues regarding IoT devices. We expect the increased transparency to encourage vendors to manufacture more private, secure and performant devices, which is a net gain for the society as whole.</p>"
         }
       ]
     },
@@ -145,15 +145,15 @@
       "title": "Other Questions",
       "faq": [
         {
-          "q": "qq",
+          "q": "I completed the study. How do I access my CR member benefits?",
           "a": "xx"
         },
         {
-          "q": "qq",
+          "q": "Will I receive emails?",
           "a": "xx"
         },
         {
-          "q": "qq",
+          "q": "Why does the site use cookies?",
           "a": "xx"
         }
       ]
