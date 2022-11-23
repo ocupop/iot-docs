@@ -1,0 +1,18 @@
+{
+  "headline": "Start Inspecting",
+  "sections": [
+    {
+      "headline": "What is Home Data Inspector?",
+      "copy": "This software monitors the network activities of all internet-connected devices in your home network (e.g., your “smart” electronics. (For those who would like to see the open source software, click here)."
+    },
+    {
+      "headline": "Why you should care",
+      "copy": "Our Home Data Inspector will let you see which devices in your home connect to the internet, see who those devices are sending data to, and identify potential security and privacy violations."
+    },
+    {
+      "headline": "Why we care",
+      "copy": "Home Data Inspector is also a research tool – it can collect anonymized data that helps us better understand the impact of these connected devices on users security, privacy, and network performance. We hope you’ll share your findings with our researchers!"
+    }
+  ],
+  "cta_label": "Get Started"
+}
