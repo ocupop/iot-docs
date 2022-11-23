@@ -1,10 +1,10 @@
 {
   "contributingResearch": {
-    "headline": 'Contributing Research",
-    "copy": "<p>By toggling on this option, you are participating in a research study by contributing your network’s data to a larger research effort. The NYU researchers behind this study are particularly interested in learning more about the security and privacy of smart homes.</p><p>If you agree to be in this study, HDI will securely and anonymously send some of the collected data to the NYU researchers. You can find out more about what data we share with the NYU researchers, and how the researchers protect your data by following this FAQ.</p><ul><li>Your participation is voluntary. You are free to toggle on/off this option as frequently and for as long as you like.</li><li><b>Risks:</b> When you agree to contribute your data to research, HDI may be slower and may consume extra bandwidth, as it transmits the collected data about your network to the NYU researchers.</li><li><b>Benefits:</b> You will feel good! — your altruism will lead to real-world data from your smart home being shared with security and privacy researchers.</li></ul>",
-  }
+    "headline": "Contributing Research",
+    "copy": "<p>By toggling on this option, you are participating in a research study by contributing your network’s data to a larger research effort. The NYU researchers behind this study are particularly interested in learning more about the security and privacy of smart homes.</p><p>If you agree to be in this study, HDI will securely and anonymously send some of the collected data to the NYU researchers. You can find out more about what data we share with the NYU researchers, and how the researchers protect your data by following this FAQ.</p><ul><li>Your participation is voluntary. You are free to toggle on/off this option as frequently and for as long as you like.</li><li><b>Risks:</b> When you agree to contribute your data to research, HDI may be slower and may consume extra bandwidth, as it transmits the collected data about your network to the NYU researchers.</li><li><b>Benefits:</b> You will feel good! — your altruism will lead to real-world data from your smart home being shared with security and privacy researchers.</li></ul>"
+  },
   "autoInspect": {
     "headline": "Automatically inspect new devices as they are discovered",
-    "copy" : <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>"
+    "copy": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>"
   }
 }
